@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    
+  
+<title>Flex Js</title>
+
+<!--stylesheet-->
+
+<link rel="stylesheet" href="23-flexjs.css">
+
+<!--javascript-->
+
+<script src="23-flexjs.js"></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="headerdiv">
+        <div id="heading">Flexbox Properties</div>
+    </div>
+
+    <div id="property1">
+        <div id="head1">Flexbox direction:</div>
+    </div>
+
+   <div id="controller">
+    <div><input onClick="Rowrev1()" id="dir1" name="flexdir" type="radio" checked><label>Row</label></div>
+    <div><input onClick="Rowrev2()" id="dir2" name="flexdir" type="radio"><label>Row-Reverse</label></div>
+    <div><input onClick="Rowrev3()" id="dir3" name="flexdir" type="radio"><label>Column</label></div>
+    <div><input onClick="Rowrev4()" id="dir4" name="flexdir" type="radio"><label>Column-Reverse</label></div>
+
+   </div>
+
+    <div id="flexcontainer1">
+   
+        <div class="flexitem1">1</div>
+        <div class="flexitem1">2</div>
+        <div class="flexitem1">3</div>
+        <div class="flexitem1">4</div>
+        <div class="flexitem1">5</div>
+
+    </div>  
+
+
+
+    <div id="property2">
+        <div id="head2">Flexbox Wrap:</div>
+    </div>
+
+   <div id="controller2">
+    <div><input onClick="Rowrap1()" id="wrap1" name="flexwrap" type="radio" checked><label>No-Wrap</label></div>
+    <div><input onClick="Rowrap2()" id="wrap2" name="flexwrap" type="radio"><label>Wrap</label></div>
+    <div><input onClick="Rowrap3()" id="wrap3" name="flexwrap" type="radio"><label>Wrap-Reverse</label></div>
+
+   </div>
+
+    <div id="flexcontainer2">
+   
+        <div class="flexitem2">1</div>
+        <div class="flexitem2">2</div>
+        <div class="flexitem2">3</div>
+        <div class="flexitem2">4</div>
+        <div class="flexitem2">5</div>
+        <div class="flexitem2">6</div>
+        <div class="flexitem2">7</div>
+        <div class="flexitem2">8</div>
+
+    </div>  
+
+
+
+    <div id="property3">
+      <div id="head3">Align Items: <span class="spanex">Aligns the items relative to each other when items are different</span></div>
+  </div>
+
+ <div id="controller3">
+  <div><input onClick="algit1()" id="alg1" name="algit" type="radio" checked><label>Flex start</label></div>
+  <div><input onClick="algit2()" id="alg2" name="algit" type="radio"><label>Flex-End</label></div>
+  <div><input onClick="algit3()" id="alg3" name="algit" type="radio"><label>Center</label></div>
+  <div><input onClick="algit4()" id="alg4" name="algit" type="radio"><label>Baseline</label></div>
+  <div><input onClick="algit5()" id="alg5" name="algit" type="radio"><label>Stretch</label></div>
+
+ </div>
+
+  <div id="flexcontainer3">
+ 
+      <div class="flexitem3">1</div>
+      <div class="flexitem3">2</div>
+      <div class="flexitem3" id="flexit3">3</div>
+      <div class="flexitem3">4</div>
+      <div class="flexitem3">5</div>
+
+  </div>  
+
+
+
+<div id="property4">
+    <div id="head4">Align Content: <span class="spanex">Manages space between lines when items wrap, flex wrap is needed</span></div>
+</div>
+
+<div id="controller4">
+<div><input onClick="algcn1()" id="algc1" name="algcn" type="radio" checked><label>Flex start</label></div>
+<div><input onClick="algcn2()" id="algc2" name="algcn" type="radio"><label>Flex-End</label></div>
+<div><input onClick="algcn3()" id="algc3" name="algcn" type="radio"><label>Center</label></div>
+<div><input onClick="algcn4()" id="algc4" name="algcn" type="radio"><label>Space-between</label></div>
+<div><input onClick="algcn5()" id="algc5" name="algcn" type="radio"><label>Space-around</label></div>
+<div><input onClick="algcn6()" id="algc6" name="algcn" type="radio"><label>Stretch</label></div>
+
+</div>
+
+<div id="flexcontainer4">
+
+    <div class="flexitem4">1</div>
+    <div class="flexitem4">2</div>
+    <div class="flexitem4">3</div>
+    <div class="flexitem4">4</div>
+    <div class="flexitem4">5</div>
+    <div class="flexitem4">6</div>
+    <div class="flexitem4">7</div>
+    <div class="flexitem4">8</div>
+    <div class="flexitem4">9</div>
+    <div class="flexitem4">10</div>
+    <div class="flexitem4">11</div>
+    <div class="flexitem4">12</div>
+    <div class="flexitem4">13</div>
+    <div class="flexitem4">14</div>
+    <div class="flexitem4">15</div>
+
+</div>  
+
+
+
+
+<div id="property5">
+  <div id="head5">Justify-content:</div>
+</div>
+
+<div id="controller5">
+<div><input onClick="justc1()" id="just1" name="just" type="radio" checked><label>Flex start</label></div>
+<div><input onClick="justc2()" id="just2" name="just" type="radio"><label>Flex-End</label></div>
+<div><input onClick="justc3()" id="just3" name="just" type="radio"><label>Center</label></div>
+<div><input onClick="justc4()" id="just4" name="just" type="radio"><label>Space-between</label></div>
+<div><input onClick="justc5()" id="just5" name="just" type="radio"><label>Space-around</label></div>
+
+</div>
+
+<div id="flexcontainer5">
+
+  <div class="flexitem5">1</div>
+  <div class="flexitem5">2</div>
+  <div class="flexitem5">3</div>
+  <div class="flexitem5">4</div>
+  <div class="flexitem5">5</div>
+
+</div>  
+
+
+
+
+<div id="headerdiv2">
+  <div id="heading2">Grid Properties</div>
+</div>
+
+
+
+<div id="property6">
+  <div id="head6">Grid-template-column: <span class="spanex">intital 5 coloumn of 50px with column gap 50px</span></div>
+</div>
+
+<div id="controller6">
+<div><input onClick="grow1()" id="gr1" name="gridr" type="radio" checked><label>100px</label></div>
+<div><input onClick="grow2()" id="gr2" name="gridr" type="radio"><label>150px</label></div>
+<div><input onClick="grow3()" id="gr3" name="gridr" type="radio"><label>200px</label></div>
+
+</div>
+
+<div id="gridcontainer6">
+
+  <div class="griditem6">1</div>
+  <div class="griditem6">2</div>
+  <div class="griditem6">3</div>
+  <div class="griditem6">4</div>
+  <div class="griditem6">5</div>
+  <div class="griditem6">6</div>
+  <div class="griditem6">7</div>
+
+</div>  
+
+
+
+<div id="property7">
+  <div id="head7">Grid-template-row: <span class="spanex">intital 5 row of 50px with row gap 20px</span></div>
+</div>
+
+<div id="controller7">
+<div><input onClick="grow4()" id="gc1" name="gridc" type="radio" checked><label>60px</label></div>
+<div><input onClick="grow5()" id="gc2" name="gridc" type="radio"><label>70px</label></div>
+<div><input onClick="grow6()" id="gc3" name="gridc" type="radio"><label>80px</label></div>
+
+</div>
+
+<div id="gridcontainer7">
+
+  <div class="griditem7">1</div>
+  <div class="griditem7">2</div>
+  <div class="griditem7">3</div>
+  <div class="griditem7">4</div>
+  <div class="griditem7">5</div>
+
+</div>  
+
+
+</body>
+
+</html>
