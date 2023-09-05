@@ -1,0 +1,578 @@
+
+
+
+body     {
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color:#000000;
+}
+
+
+
+
+#headerdiv {
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+
+
+#heading   {
+
+      color:white;
+      font-size: 50px;
+      font-weight:600;
+}
+
+
+
+#headerdiv2 {
+      margin-top:100px;
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+
+
+#heading2   {
+
+      color:white;
+      font-size: 50px;
+      font-weight:600;
+}
+
+
+
+#property1 {
+      width:90%;
+      display:flex;
+      justify-content: left;
+      align-items: center;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head1     {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller   {
+          width:90%;
+          height:20px;
+          display:flex;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          align-items:center;
+
+
+
+  }
+
+
+
+
+
+#flexcontainer1 {
+          width:90%;
+          height:150px;
+          border:2px solid white;
+          display:flex;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+
+
+   }
+
+ 
+
+
+.flexitem1    {
+           width: 15%;
+           height:100px;
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+
+   }
+
+/*flex wrap*/
+
+
+
+#property2 {
+      width:90%;
+      display:flex;
+      justify-content: left;
+      align-items: center;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head2     {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller2  {
+          width:90%;
+          height:20px;
+          display:flex;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          align-items:center;
+
+
+
+  }
+
+
+
+
+
+#flexcontainer2 {
+          width:90%;
+          height:150px;
+          border:2px solid white;
+          display:flex;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+
+
+   }
+
+ 
+
+
+.flexitem2    {
+           width: 15%;
+           height:100px;
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+
+   }
+
+
+/*align items*/
+
+
+
+#property3 {
+      width:90%;
+      display:flex;
+      justify-content: left;
+      align-items: center;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head3    {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller3  {
+          width:90%;
+          height:20px;
+          display:flex;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          align-items:center;
+
+
+
+  }
+
+
+
+
+
+#flexcontainer3 {
+          width:90%;
+          height:250px;
+          border:2px solid white;
+          display:flex;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+
+
+   }
+
+ 
+
+
+.flexitem3   {
+           width: 15%;
+           height:100px;
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+
+   }
+#flexit3 {
+height:150px;
+padding-top:50px;
+}
+
+.spanex {
+font-size: 15px;
+font-weight: 100;
+}
+
+/* align content*/
+
+
+
+#property4 {
+      width:90%;
+      display:flex;
+      justify-content: left;
+      align-items: center;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head4    {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller4  {
+          width:90%;
+          height:20px;
+          display:flex;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          align-items:center;
+
+
+
+  }
+
+
+
+
+
+#flexcontainer4 {
+          width:90%;
+          height:550px;
+          border:2px solid white;
+          display:flex;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+          flex-wrap: wrap;
+
+
+   }
+
+ 
+
+
+.flexitem4   {
+           width: 15%;
+           height:100px;
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+
+   }
+
+
+/* justify content*/
+
+
+
+#property5 {
+      width:90%;
+      display:flex;
+      justify-content: left;
+      align-items: center;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head5    {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller5  {
+          width:90%;
+          height:20px;
+          display:flex;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          align-items:center;
+
+
+
+  }
+
+
+
+
+
+#flexcontainer5 {
+          width:90%;
+          height:150px;
+          border:2px solid white;
+          display:flex;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+
+
+   }
+
+ 
+
+
+.flexitem5  {
+           width: 15%;
+           height:100px;
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+
+   }
+
+/* grid Tamplate col */
+
+
+
+
+#property6 {
+      width:90%;
+      display:grid;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head6    {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller6  {
+          width:90%;
+          height:20px;
+          display: flex;
+          justify-content: space-between;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+
+
+
+  }
+
+
+
+
+
+#gridcontainer6 {
+          width:90%;
+          height:400px;
+          border:2px solid white;
+          display:grid;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+          grid-template-columns: 50px 50px 50px 50px 50px;
+          column-gap: 50px;
+
+
+   }
+
+ 
+
+
+.griditem6  {
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+           padding:30px;
+
+   }
+
+
+
+/* grid Tamplate row */
+
+
+
+
+#property7 {
+      width:90%;
+      display:grid;
+      position:relative;
+      left:65px;
+      margin-top:100px;
+}
+
+
+
+
+#head7   {
+
+      color:white;
+      font-size: 30px;
+      font-weight:400;
+}
+
+
+#controller7  {
+          width:90%;
+          height:20px;
+          display: flex;
+          justify-content: space-between;
+          position:relative;
+          left:65px;
+          color:white;
+          font-size: 20px;
+          font-weight:100;
+          margin-top:10px;
+          margin-bottom: 20px;
+
+
+
+  }
+
+
+
+
+
+#gridcontainer7 {
+          width:90%;
+          height:500px;
+          border:2px solid white;
+          display:grid;
+          border-style: dashed;
+          position:relative;
+          left:65px;
+          box-sizing: border-box;
+          padding:20px;
+          grid-template-rows: 50px 50px 50px 50px 50px;
+          row-gap: 20px;
+
+
+   }
+
+ 
+
+
+.griditem7  {          
+           color:white;
+           background-color: #345c67;
+           margin:2px;
+           box-sizing: border-box;
+           padding:5px;
+
+   }
+
